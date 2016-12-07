@@ -1,0 +1,25 @@
+<title>Битки - Фотоальбом</title>
+<body scroll=auto onload="myalbum()">
+<link rel=stylesheet href="album.css">
+<script language="javascript">
+var limit = 15;
+var phdir = "photos/";
+var phimg = "photo";
+var type = ".jpg";
+var number = 1;
+function myalbum(i){
+if((i == "play") && (number < limit)) number++, setTimeout("myalbum('play')",10000);
+if((i == "back") && (number > 1)) number-=1;
+if((i == "next") && (number < limit)) number++;
+photo.src = phdir + number + type
+text.innerHTML = "фото " + number + " из " + limit
+}
+function album(i){number = i;
+text.innerHTML = "фото " + number + " из " + limit;
+photo.src = phimg + i + type;}
+</script>
+<table cellspacing=0 cellpadding=0 width=100% height=100%>
+<tr height=10><td><font size=1 id=text></font></td></tr>
+<tr><td align=middle valign=middle>
+<img src="../style/logo.gif" id=photo>
+</td></tr></table></html>

@@ -1,0 +1,5 @@
+body{background:#FFFFFF;margin-top:0;margin-bottom:0;margin-left:0;margin-right:0}
+table {background:#000080;font:14pt/24px, Arial, Tahoma,Verdana;color:#333333;}
+a:link{color:#FFFFFF;background: #0000FF URL(link.gif);text-decoration:none;height:24px;padding-left:5;padding-right:5}
+a:visited{color:#FFFFFF;background: #0000FF URL(link.gif);text-decoration:none;height:24px;padding-left:5;padding-right:5}
+a:hover{color:#333333;background: #00FF00 URL(hover.gif);text-decoration:none;height:24px;padding-left:5;padding-right:5}

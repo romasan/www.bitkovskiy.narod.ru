@@ -1,0 +1,28 @@
+body{background:#FFFFFF;margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;}
+hr{color:#00FF00;height:1}
+li {list-style: url(plus.gif)}
+table {font:14pt, Arial, Tahoma,Verdana;color:#333333}
+a:link{color:#0000FF;text-decoration:none}
+a:visited{color:#0000FF;text-decoration:none}
+a:hover{color:#FF0000;text-decoration:underline}
+.bg01 {background:#FFFFFF URL(lbg.gif) top left repeat-y}
+.bg03 {font:12pt, Arial, Tahoma,Verdana;color:#333333;width:100%}
+.bg03 a:link {color:#000080;text-decoration:none}
+.bg03 a:visited {color:#000080;text-decoration:none}
+.bg03 a:hover {background:#FFFFFF;filter:alpha(opacity=50);color:#008000;text-decoration:none}
+.bg04 {background:#FFFFFF}
+.bg04 tr {background:#F0F0F0}
+.bg04 td {padding-left:10}
+.bg05 {font:12pt}
+.bg06 {background:#FF8000}
+.red {color:#FF0000}
+.bgmain{background:#FFFFFF;color:#333333;border:1 solid #000080}
+.bgtop{background:#00FF00 URL(bg.gif) top left repeat-x;font:12pt;color:#0000FF}
+.bg_00{background:#FFFFFF;color:#0000FF;border-top:1px dashed #00FF00}
+.alltext{background:#FFFFFF;color:#333333;text-align:justify}
+.bg_green {background: #96c96c;font: 20pt, Times New Roman, Courier New;color: #FFFFFF;}
+.bg_01 {background:#AAAAFF;font: 12pt, Arial;color: #ffffff}
+.bg_01 a:link {color: #ffffff}
+.bg_01 a:visited {color: #ffffff}
+.bg_01 a:hover {color:#ff0000;text-decoration:none}
+.bg_02 {background:#FAFAFA;font: 14pt, Times New Roman, Courier New;color: #333333;text-align:justify}
